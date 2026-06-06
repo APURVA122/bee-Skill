@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background: linear-gradient(135deg,#ffe5ec,#e0c3fc,#c8e7ff);
+    min-height:100vh;
+    padding:30px;
+    color:#333;
+}
+
+
+header{
+    text-align:center;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    margin-bottom:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+}
+
+
+section{
+    padding:25px;
+    border-radius:20px;
+    margin-bottom:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+section:hover{
+    transform:translateY(-5px);
+}
+
+
+
+.about{
+    background:#fff0f5;
+    border-left:8px solid #ff69b4;
+}
+
+.education{
+    background:#fff8dc;
+    border-left:8px solid #f4b400;
+}
+
+.projects{
+    background:#e8f5e9;
+    border-left:8px solid #34a853;
+}
+
+.contact{
+    background:#e3f2fd;
+    border-left:8px solid #4285f4;
+}
+
+.achievements{
+    background:#f3e5f5;
+    border-left:8px solid #9c27b0;
+}
+
+h2{
+    margin-bottom:15px;
+    color:#222;
+}
+
+h3{
+    margin-top:15px;
+    color:#444;
+}
+
+ul{
+    margin-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+a{
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+}
+
+a:hover{
+    color:#ff4081;
+}
+
+/* Mobile */
+@media(max-width:768px){
+    body{
+        padding:15px;
+    }
+
+    header h1{
+        font-size:2rem;
+    }
+}
